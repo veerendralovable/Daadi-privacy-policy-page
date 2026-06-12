@@ -1,0 +1,6 @@
+{
+  "name": "Daadi Board Game Landing",
+  "description": "The official landing website, Privacy Policy, and Terms of Service for Daadi - The Traditional Strategy Game.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

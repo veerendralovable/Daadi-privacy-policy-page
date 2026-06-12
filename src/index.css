@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Lora", Georgia, serif;
+  --font-display: "Cinzel", serif;
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+
+  --color-parchment: #FDF3E3;
+  --color-coffee: #5C2D0A;
+  --color-wood: #3D1E06;
+  --color-gold-accent: #D4AF37;
+  --color-gold-dark: #B38F1F;
+  --color-board-green: #2C4A34;
+  --color-board-green-light: #3E5F43;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-parchment);
+    color: var(--color-coffee);
+    font-family: var(--font-sans);
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar for parchment aesthetic */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FDF3E3;
+  border-left: 1px solid rgba(92, 45, 10, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #C5A059;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #5C2D0A;
+}
+
